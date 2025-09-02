@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRISMA IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #4A0E70;
+            color: #E2E8F0;
+        }
+        .chat-container {
+            height: 400px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column-reverse; /* Para que as mensagens novas apareçam na parte inferior */
+        }
+        .chat-bubble {
+            max-width: 80%;
+            padding: 0.75rem;
+            border-radius: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .chat-bubble.bot {
+            background-color: #2D3748;
+            align-self: flex-start;
+        }
+        .chat-bubble.user {
+            background-color: #A855F7;
+            align-self: flex-end;
+            color: white;
+        }
+        .chart-container {
+            width: 100%;
+            height: 200px;
+            background-color: #2D3748;
+            border-radius: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .chart-line {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #A855F7; /* Roxo */
+            transform-origin: bottom left;
+            animation: moveChart 1s linear infinite;
+        }
+        @keyframes moveChart {
+            from { transform: translateX(0); }
+            to { transform: translateX(-100%); }
+        }
+        .signal-indicator {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: none;
+        }
+        .signal-indicator.up {
+            border-bottom: 20px solid green;
+        }
+        .signal-indicator.down {
+            border-top: 20px solid red;
+        }
+    </style>
+</head>
+<body class="antialiased flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-4xl bg-gray-900 rounded-2xl shadow-xl p-6 md:p-10 border border-purple-800">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-purple-400 tracking-tight">PRISMA IA</h1>
+            <p class="mt-2 text-lg text-gray-400">Seu assistente de IA pessoal.</p>
+        </header>
+
+        <main>
+            <!-- Chat section -->
+            <div id="chat-history" class="chat-container mb-6 p-4 bg-gray-800 rounded-xl border border-purple-600">
+                <!-- Chat messages will be dynamically added here -->
+            </div>
+            
+            <div class="flex space-x-2 mb-6">
+                <input type="text" id="chat-input" placeholder="Envie uma mensagem..." class="flex-grow p-3 border border-purple-600 bg-gray-800 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-200">
+                <button id="chat-send-btn" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-colors duration-200">
+                    Enviar
+                </button>
+            </div>
+
+            <!-- Analysis section -->
+            <div class="mb-6">
+                <label for="image-upload" class="block text-gray-300 font-semibold mb-2">Envie uma imagem do seu gráfico para análise:</label>
+                <input type="file" id="image-upload" accept="image/*" class="w-full text-gray-300 bg-gray-800 border border-purple-600 rounded-xl p-2 transition-colors duration-200 cursor-pointer">
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 mb-6">
+                <button id="send-btn" class="w-full md:w-auto bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors duration-200">
+                    Analisar Agora
+                </button>
+                <button id="stop-btn" class="w-full md:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors duration-200 hidden">
+                    Parar Análise
+                </button>
+                <button id="logic-btn" class="w-full md:w-auto bg-gray-700 hover:bg-gray-600 text-gray-300 font-bold py-3 px-8 rounded-full shadow-lg transition-colors duration-200 hidden">
+                    Lógica da Entrada
+                </button>
+            </div>
+
+            <div id="response-container" class="mt-8 hidden">
+                <h2 class="text-2xl font-bold text-gray-300 mb-4">Análise do PRISMA:</h2>
+                <div id="response-content" class="bg-gray-800 p-6 rounded-xl border border-purple-600 text-gray-300 prose max-w-none">
+                    <!-- Resposta da análise será inserida aqui -->
+                </div>
+            </div>
+
+            <div class="relative w-full h-40 bg-gray-800 rounded-xl mt-8 flex items-center justify-center">
+                <canvas id="chart-canvas" class="w-full h-full"></canvas>
+                <div id="signal-arrow" class="absolute hidden"></div>
+            </div>
+
+            <div id="loading-spinner" class="hidden text-center mt-6">
+                <div class="animate-spin inline-block w-10 h-10 border-4 border-t-4 border-purple-500 rounded-full"></div>
+                <p class="mt-2 text-purple-400">A IA está pensando... Por favor, aguarde.</p>
+            </div>
+
+            <div id="error-message" class="mt-8 hidden">
+                <div class="bg-red-900 border border-red-700 text-red-300 px-4 py-3 rounded-xl relative text-center" role="alert">
+                    <strong class="font-bold">Ops!</strong>
+                    <span class="block sm:inline" id="error-text">Ocorreu um erro ao conectar com o assistente. Por favor, tente novamente.</span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-8 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 PRISMA IA. Ferramenta de análise de mercado financeiro.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const imageUpload = document.getElementById('image-upload');
+            const sendBtn = document.getElementById('send-btn');
+            const stopBtn = document.getElementById('stop-btn');
+            const logicBtn = document.getElementById('logic-btn');
+            const responseContainer = document.getElementById('response-container');
+            const responseContent = document.getElementById('response-content');
+            const loadingSpinner = document.getElementById('loading-spinner');
+            const errorMessage = document.getElementById('error-message');
+            const errorText = document.getElementById('error-text');
+            const chartCanvas = document.getElementById('chart-canvas');
+            const signalArrow = document.getElementById('signal-arrow');
+            const chatInput = document.getElementById('chat-input');
+            const chatSendBtn = document.getElementById('chat-send-btn');
+            const chatHistory = document.getElementById('chat-history');
+            const ctx = chartCanvas.getContext('2d');
+            
+            let lastImageData = null;
+            let animationFrameId = null;
+            let controller = null;
+
+            function addMessageToChat(message, isUser = false) {
+                const messageDiv = document.createElement('div');
+                messageDiv.classList.add('chat-bubble', isUser ? 'user' : 'bot');
+                messageDiv.innerText = message;
+                chatHistory.prepend(messageDiv);
+            }
+
+            function startChartAnimation() {
+                chartCanvas.width = chartCanvas.parentElement.clientWidth;
+                chartCanvas.height = chartCanvas.parentElement.clientHeight;
+
+                let x = 0;
+                let y = chartCanvas.height / 2;
+                const amplitude = 30;
+                const frequency = 0.05;
+
+                const animate = () => {
+                    ctx.clearRect(0, 0, chartCanvas.width, chartCanvas.height);
+                    ctx.beginPath();
+                    ctx.strokeStyle = '#A855F7';
+                    ctx.lineWidth = 2;
+                    
+                    for (let i = 0; i < chartCanvas.width; i++) {
+                        const newY = chartCanvas.height / 2 + amplitude * Math.sin(frequency * (i + x));
+                        if (i === 0) {
+                            ctx.moveTo(i, newY);
+                        } else {
+                            ctx.lineTo(i, newY);
+                        }
+                    }
+                    ctx.stroke();
+                    x -= 2;
+                    animationFrameId = requestAnimationFrame(animate);
+                };
+                animate();
+                signalArrow.classList.add('hidden');
+            }
+
+            function stopChartAnimation(direction) {
+                if (animationFrameId) {
+                    cancelAnimationFrame(animationFrameId);
+                }
+                
+                ctx.clearRect(0, 0, chartCanvas.width, chartCanvas.height);
+                signalArrow.classList.remove('hidden');
+                if (direction === 'COMPRA') {
+                    signalArrow.className = 'signal-indicator up';
+                } else if (direction === 'VENDA') {
+                    signalArrow.className = 'signal-indicator down';
+                }
+            }
+            
+            function stopOnlyAnimation() {
+                if (animationFrameId) {
+                    cancelAnimationFrame(animationFrameId);
+                }
+                signalArrow.classList.add('hidden');
+            }
+
+            function resetUI() {
+                loadingSpinner.classList.add('hidden');
+                stopBtn.classList.add('hidden');
+                sendBtn.disabled = false;
+            }
+
+            sendBtn.addEventListener('click', async () => {
+                const prompt = chatInput.value.trim();
+                const imageFile = imageUpload.files[0];
+                
+                if (!imageFile) {
+                    errorMessage.classList.remove('hidden');
+                    errorText.innerText = "Por favor, envie uma imagem do gráfico para análise.";
+                    return;
+                }
+
+                responseContainer.classList.add('hidden');
+                errorMessage.classList.add('hidden');
+                logicBtn.classList.add('hidden');
+                
+                sendBtn.disabled = true;
+                stopBtn.classList.remove('hidden');
+                loadingSpinner.classList.remove('hidden');
+                startChartAnimation();
+                
+                controller = new AbortController();
+                const signal = controller.signal;
+
+                const reader = new FileReader();
+                reader.onload = async (e) => {
+                    lastImageData = e.target.result.split(',')[1];
+                    
+                    const currentTime = new Date().toLocaleTimeString('pt-BR', {
+                        timeZone: 'America/Sao_Paulo',
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        second: '2-digit'
+                    });
+
+                    const combinedPrompt = `Analise o gráfico na imagem e forneça um sinal de entrada preciso e pronto para uso. Baseie sua análise em uma avaliação completa de: 
+                    a) Padrões de Velas e Pavios, reconhecendo formações clássicas para prever a direção do preço,
+                    b) Linhas de Tendência de alta (LTA) ou baixa (LTB),
+                    c) Figuras Gráficas, como cabeça e ombros, triângulos e bandeiras,
+                    d) Zonas de Demanda, Liquidez e Reversão,
+                    e) Volume para confirmar a força do movimento,
+                    f) Níveis de Fibonacci e o posicionamento de grandes players,
+                    g) Padrões de Correção e Continuidade para identificar se o movimento é uma pausa ou uma continuação,
+                    h) Forças do Mercado, analisando a pressão de compra e venda,
+                    i) RSI (Índice de Força Relativa) com período 14,
+                    j) MACD (Média Móvel de Convergência e Divergência) com parâmetros 7, 25, 9,
+                    k) Donchian de 33,
+                    l) Bandas de Bollinger com parâmetros 22, 2,
+                    m) Super Trend com parâmetros 1, 2 e 5, 2.
+                    Forneça uma recomendação e um horário de entrada exato para a próxima vela, considerando que o horário atual em Brasília é ${currentTime}. Responda estritamente no formato: Direção: [DIREÇÃO] | Timeframe: [TIMEFRAME] | Horário de Entrada (Brasília): [HORÁRIO] | Assertividade: [0-100] | Análise: [ANÁLISE SINTETIZADA].`;
+
+                    const payloadContents = [{
+                        role: "user",
+                        parts: [
+                            { text: prompt || combinedPrompt },
+                            {
+                                inlineData: {
+                                    mimeType: imageFile.type,
+                                    data: lastImageData
+                                }
+                            }
+                        ]
+                    }];
+                    
+                    const resultText = await callGeminiAPI(payloadContents, signal);
+                    if (resultText) {
+                        const parts = resultText.split('|').map(part => part.trim());
+                        const simplifiedText = parts.slice(0, 4).join(' | ');
+                        responseContent.innerText = simplifiedText;
+                        responseContainer.classList.remove('hidden');
+                        logicBtn.classList.remove('hidden');
+                        
+                        const directionMatch = resultText.match(/Direção: \[(.*?)\]/);
+                        if (directionMatch) {
+                            const direction = directionMatch[1];
+                            stopChartAnimation(direction);
+                        }
+                    } else {
+                        stopOnlyAnimation();
+                    }
+                    resetUI();
+                };
+                reader.readAsDataURL(imageFile);
+            });
+
+            stopBtn.addEventListener('click', () => {
+                if (controller) {
+                    controller.abort();
+                    stopOnlyAnimation();
+                    resetUI();
+                    errorMessage.classList.remove('hidden');
+                    errorText.innerText = "Análise interrompida pelo usuário.";
+                    responseContainer.classList.add('hidden');
+                    logicBtn.classList.add('hidden');
+                }
+            });
+
+            logicBtn.addEventListener('click', async () => {
+                if (!lastImageData) {
+                    return;
+                }
+
+                responseContent.innerText = '';
+                sendBtn.disabled = true;
+                stopBtn.classList.remove('hidden');
+                loadingSpinner.classList.remove('hidden');
+                logicBtn.classList.add('hidden');
+                startChartAnimation();
+
+                controller = new AbortController();
+                const signal = controller.signal;
+
+                const detailedPrompt = `Com base na sua análise anterior do gráfico, explique em detalhes a lógica por trás da sua recomendação. Explique como você usou a Lógica do Preço, os padrões de velas e pavios, linhas de tendência, figuras gráficas, zonas de demanda, liquidez, reversão e volume. Detalhe como os indicadores (RSI, MACD, Donchian, Bandas de Bollinger, Super Trend e Fibonacci) confirmaram a sua análise. Seja detalhado e educativo. Use um exemplo real do gráfico para ilustrar.`;
+
+                const payloadContents = [{
+                    role: "user",
+                    parts: [
+                        { text: detailedPrompt },
+                        {
+                            inlineData: {
+                                mimeType: 'image/jpeg',
+                                data: lastImageData
+                            }
+                        }
+                    ]
+                }];
+                
+                const resultText = await callGeminiAPI(payloadContents, signal);
+                if (resultText) {
+                    responseContent.innerText = resultText;
+                    stopOnlyAnimation();
+                } else {
+                    stopOnlyAnimation();
+                }
+                resetUI();
+            });
+
+            chatSendBtn.addEventListener('click', async () => {
+                const userMessage = chatInput.value.trim();
+                if (!userMessage) return;
+
+                addMessageToChat(userMessage, true);
+                chatInput.value = '';
+                
+                loadingSpinner.classList.remove('hidden');
+                
+                controller = new AbortController();
+                const signal = controller.signal;
+
+                const botResponse = await callGeminiAPI([{
+                    role: "user",
+                    parts: [{ text: userMessage }]
+                }], signal);
+                
+                loadingSpinner.classList.add('hidden');
+
+                if (botResponse) {
+                    addMessageToChat(botResponse);
+                } else {
+                    addMessageToChat("Desculpe, não consegui processar sua mensagem. Tente novamente mais tarde.");
+                }
+            });
+
+            async function callGeminiAPI(contents, signal) {
+                const apiKey = ""; 
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+                
+                const payload = {
+                    contents: contents,
+                    systemInstruction: {
+                        parts: [{ text: "Você é um analista de mercado financeiro extremamente avançado e experiente. Sua análise é baseada em uma compreensão profunda da Lógica do Preço, padrões de velas, análise de pavios (wicks), linhas de tendência (LTA/LTB), figuras gráficas, zonas de demanda e liquidez, volumes de rejeição e continuidade, Fibonacci e o posicionamento dos grandes players, além de zonas de reversão, de volume de velas, padrões de correção, continuidade, forças do Mercado, RSI, MACD, Donchian, Bandas de Bollinger e Super Trend. Aja como um especialista que toma decisões rápidas e assertivas. Seja conciso e direto na sua resposta, focando em fornecer um sinal pronto e um horário de entrada preciso. Sua tarefa é fornecer uma análise técnica detalhada e uma recomendação acionável e também atuar como um assistente de chat para responder a perguntas gerais sobre trading e o mercado financeiro." }]
+                    },
+                };
+
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload),
+                        signal: signal
+                    });
+
+                    const result = await response.json();
+                    
+                    if (response.ok && result.candidates && result.candidates.length > 0) {
+                        const generatedText = result.candidates[0].content.parts[0].text;
+                        return generatedText;
+                    } else {
+                        throw new Error(result.error?.message || 'Erro desconhecido');
+                    }
+                } catch (error) {
+                    if (error.name === 'AbortError') {
+                        console.log("Análise cancelada pelo usuário.");
+                        return null;
+                    }
+                    console.error("Gemini API error:", error);
+                    errorMessage.classList.remove('hidden');
+                    errorText.innerText = `Ocorreu um erro: ${error.message}`;
+                    return null;
+                } finally {
+                    loadingSpinner.classList.add('hidden');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

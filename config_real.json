@@ -1,0 +1,15 @@
+{
+    "account_type": "PRACTICE",
+    "entry_value": 5.0,
+    "stop_win": 50.0,
+    "stop_loss": 20.0,
+    "strategy": "MACD + RSI Reversal (80%)",
+    "operation_mode": "Operar",
+    "optimized_entry": false,
+    "email": "glkhali7777@gmail.com ",
+    "enable_gap_filter": false,
+    "enable_martingale": false,
+    "martingale_mode": "Desativado",
+    "enable_market_filter": false,
+    "enable_volatility_filter": false
+}

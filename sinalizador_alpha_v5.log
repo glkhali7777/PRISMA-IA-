@@ -1,0 +1,885 @@
+2025-08-25 17:08:53,017 - INFO - Websocket connected
+2025-08-25 17:08:56,852 - INFO - Buscando pares de moedas OTC...
+2025-08-25 17:09:00,830 - INFO - 137 pares OTC encontrados.
+2025-08-25 17:09:24,024 - ERROR - Erro ao analisar AIG-OTC: "['from'] not in index"
+2025-08-25 17:09:24,850 - ERROR - Erro ao analisar ALIBABA-OTC: "['from'] not in index"
+2025-08-25 17:09:25,686 - ERROR - Erro ao analisar AMZN/ALIBABA-OTC: "['from'] not in index"
+2025-08-25 17:09:26,557 - ERROR - Erro ao analisar AMZN/EBAY-OTC: "['from'] not in index"
+2025-08-25 17:09:27,493 - ERROR - Erro ao analisar ARBUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:28,387 - ERROR - Erro ao analisar ATOMUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:29,220 - ERROR - Erro ao analisar AUDCAD-OTC: "['from'] not in index"
+2025-08-25 17:09:30,069 - ERROR - Erro ao analisar AUDCHF-OTC: "['from'] not in index"
+2025-08-25 17:09:31,064 - ERROR - Erro ao analisar AUDJPY-OTC: "['from'] not in index"
+2025-08-25 17:09:32,035 - ERROR - Erro ao analisar AUDNZD-OTC: "['from'] not in index"
+2025-08-25 17:09:33,068 - ERROR - Erro ao analisar AUDUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:34,143 - ERROR - Erro ao analisar AUS200-OTC: "['from'] not in index"
+2025-08-25 17:09:35,186 - ERROR - Erro ao analisar BCHUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:36,211 - ERROR - Erro ao analisar BIDU-OTC: "['from'] not in index"
+2025-08-25 17:09:37,245 - ERROR - Erro ao analisar BONKUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:38,235 - ERROR - Erro ao analisar CADCHF-OTC: "['from'] not in index"
+2025-08-25 17:09:39,202 - ERROR - Erro ao analisar CADJPY-OTC: "['from'] not in index"
+2025-08-25 17:09:40,192 - ERROR - Erro ao analisar CHFJPY-OTC: "['from'] not in index"
+2025-08-25 17:09:41,244 - ERROR - Erro ao analisar CHFNOK-OTC: "['from'] not in index"
+2025-08-25 17:09:42,272 - ERROR - Erro ao analisar CITI-OTC: "['from'] not in index"
+2025-08-25 17:09:43,545 - ERROR - Erro ao analisar COKE-OTC: "['from'] not in index"
+2025-08-25 17:09:44,587 - ERROR - Erro ao analisar DASHUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:45,512 - ERROR - Erro ao analisar DOTUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:46,632 - ERROR - Erro ao analisar DYDXUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:47,562 - ERROR - Erro ao analisar EOSUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:48,599 - ERROR - Erro ao analisar ETHUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:49,542 - ERROR - Erro ao analisar EU50-OTC: "['from'] not in index"
+2025-08-25 17:09:50,562 - ERROR - Erro ao analisar EURAUD-OTC: "['from'] not in index"
+2025-08-25 17:09:51,613 - ERROR - Erro ao analisar EURCAD-OTC: "['from'] not in index"
+2025-08-25 17:09:52,632 - ERROR - Erro ao analisar EURCHF-OTC: "['from'] not in index"
+2025-08-25 17:09:53,705 - ERROR - Erro ao analisar EURGBP-OTC: "['from'] not in index"
+2025-08-25 17:09:54,732 - ERROR - Erro ao analisar EURJPY-OTC: "['from'] not in index"
+2025-08-25 17:09:55,783 - ERROR - Erro ao analisar EURNZD-OTC: "['from'] not in index"
+2025-08-25 17:09:57,022 - ERROR - Erro ao analisar EURTHB-OTC: "['from'] not in index"
+2025-08-25 17:09:58,042 - ERROR - Erro ao analisar EURUSD-OTC: "['from'] not in index"
+2025-08-25 17:09:59,769 - ERROR - Erro ao analisar FARTCOINUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:00,812 - ERROR - Erro ao analisar FETUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:03,639 - ERROR - Erro ao analisar FLOKIUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:04,743 - ERROR - Erro ao analisar FR40-OTC: "['from'] not in index"
+2025-08-25 17:10:05,803 - ERROR - Erro ao analisar GALAUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:07,176 - ERROR - Erro ao analisar GBPAUD-OTC: "['from'] not in index"
+2025-08-25 17:10:08,246 - ERROR - Erro ao analisar GBPCAD-OTC: "['from'] not in index"
+2025-08-25 17:10:09,091 - ERROR - Erro ao analisar GBPCHF-OTC: "['from'] not in index"
+2025-08-25 17:10:24,986 - ERROR - Erro ao analisar AIG-OTC: "['from'] not in index"
+2025-08-25 17:10:25,834 - ERROR - Erro ao analisar ALIBABA-OTC: "['from'] not in index"
+2025-08-25 17:10:26,737 - ERROR - Erro ao analisar AMZN/ALIBABA-OTC: "['from'] not in index"
+2025-08-25 17:10:27,686 - ERROR - Erro ao analisar AMZN/EBAY-OTC: "['from'] not in index"
+2025-08-25 17:10:28,661 - ERROR - Erro ao analisar ARBUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:29,805 - ERROR - Erro ao analisar ATOMUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:30,961 - ERROR - Erro ao analisar AUDCAD-OTC: "['from'] not in index"
+2025-08-25 17:10:32,006 - ERROR - Erro ao analisar AUDCHF-OTC: "['from'] not in index"
+2025-08-25 17:10:33,015 - ERROR - Erro ao analisar AUDJPY-OTC: "['from'] not in index"
+2025-08-25 17:10:34,187 - ERROR - Erro ao analisar AUDNZD-OTC: "['from'] not in index"
+2025-08-25 17:10:35,262 - ERROR - Erro ao analisar AUDUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:36,439 - ERROR - Erro ao analisar AUS200-OTC: "['from'] not in index"
+2025-08-25 17:10:37,474 - ERROR - Erro ao analisar BCHUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:38,511 - ERROR - Erro ao analisar BIDU-OTC: "['from'] not in index"
+2025-08-25 17:10:39,520 - ERROR - Erro ao analisar BONKUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:40,535 - ERROR - Erro ao analisar CADCHF-OTC: "['from'] not in index"
+2025-08-25 17:10:41,651 - ERROR - Erro ao analisar CADJPY-OTC: "['from'] not in index"
+2025-08-25 17:10:42,666 - ERROR - Erro ao analisar CHFJPY-OTC: "['from'] not in index"
+2025-08-25 17:10:43,763 - ERROR - Erro ao analisar CHFNOK-OTC: "['from'] not in index"
+2025-08-25 17:10:44,780 - ERROR - Erro ao analisar CITI-OTC: "['from'] not in index"
+2025-08-25 17:10:46,026 - ERROR - Erro ao analisar COKE-OTC: "['from'] not in index"
+2025-08-25 17:10:47,101 - ERROR - Erro ao analisar DASHUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:48,147 - ERROR - Erro ao analisar DOTUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:49,235 - ERROR - Erro ao analisar DYDXUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:50,352 - ERROR - Erro ao analisar EOSUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:51,408 - ERROR - Erro ao analisar ETHUSD-OTC: "['from'] not in index"
+2025-08-25 17:10:52,489 - ERROR - Erro ao analisar EU50-OTC: "['from'] not in index"
+2025-08-25 17:10:53,600 - ERROR - Erro ao analisar EURAUD-OTC: "['from'] not in index"
+2025-08-25 17:10:54,618 - ERROR - Erro ao analisar EURCAD-OTC: "['from'] not in index"
+2025-08-25 17:10:55,718 - ERROR - Erro ao analisar EURCHF-OTC: "['from'] not in index"
+2025-08-25 17:10:56,852 - ERROR - Erro ao analisar EURGBP-OTC: "['from'] not in index"
+2025-08-25 17:10:57,869 - ERROR - Erro ao analisar EURJPY-OTC: "['from'] not in index"
+2025-08-25 17:10:59,003 - ERROR - Erro ao analisar EURNZD-OTC: "['from'] not in index"
+2025-08-25 17:10:59,846 - ERROR - Erro ao analisar EURTHB-OTC: "['from'] not in index"
+2025-08-25 17:11:00,706 - ERROR - Erro ao analisar EURUSD-OTC: "['from'] not in index"
+2025-08-25 17:11:01,727 - ERROR - Erro ao analisar FARTCOINUSD-OTC: "['from'] not in index"
+2025-08-25 17:11:02,682 - ERROR - Erro ao analisar FETUSD-OTC: "['from'] not in index"
+2025-08-25 17:14:02,321 - INFO - Websocket connected
+2025-08-25 17:14:23,354 - INFO - Buscando pares de moedas OTC...
+2025-08-25 17:14:27,491 - INFO - 137 pares OTC encontrados.
+2025-08-25 17:14:58,006 - ERROR - Erro ao analisar AIG-OTC: "['high', 'low'] not in index"
+2025-08-25 17:14:58,938 - ERROR - Erro ao analisar ALIBABA-OTC: "['high', 'low'] not in index"
+2025-08-25 17:14:59,849 - ERROR - Erro ao analisar AMZN/ALIBABA-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:00,697 - ERROR - Erro ao analisar AMZN/EBAY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:01,613 - ERROR - Erro ao analisar ARBUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:02,463 - ERROR - Erro ao analisar ATOMUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:03,274 - ERROR - Erro ao analisar AUDCAD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:04,104 - ERROR - Erro ao analisar AUDCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:05,130 - ERROR - Erro ao analisar AUDJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:05,995 - ERROR - Erro ao analisar AUDNZD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:06,797 - ERROR - Erro ao analisar AUDUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:07,796 - ERROR - Erro ao analisar AUS200-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:08,723 - ERROR - Erro ao analisar BCHUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:09,558 - ERROR - Erro ao analisar BIDU-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:10,430 - ERROR - Erro ao analisar BONKUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:11,268 - ERROR - Erro ao analisar CADCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:12,091 - ERROR - Erro ao analisar CADJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:14,290 - ERROR - Erro ao analisar CHFJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:15,127 - ERROR - Erro ao analisar CHFNOK-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:16,026 - ERROR - Erro ao analisar CITI-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:16,867 - ERROR - Erro ao analisar COKE-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:17,953 - ERROR - Erro ao analisar DASHUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:18,770 - ERROR - Erro ao analisar DOTUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:19,617 - ERROR - Erro ao analisar DYDXUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:20,498 - ERROR - Erro ao analisar EOSUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:21,546 - ERROR - Erro ao analisar ETHUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:22,402 - ERROR - Erro ao analisar EU50-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:23,397 - ERROR - Erro ao analisar EURAUD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:24,300 - ERROR - Erro ao analisar EURCAD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:25,187 - ERROR - Erro ao analisar EURCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:26,059 - ERROR - Erro ao analisar EURGBP-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:26,971 - ERROR - Erro ao analisar EURJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:28,100 - ERROR - Erro ao analisar EURNZD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:28,993 - ERROR - Erro ao analisar EURTHB-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:29,809 - ERROR - Erro ao analisar EURUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:30,796 - ERROR - Erro ao analisar FARTCOINUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:31,923 - ERROR - Erro ao analisar FETUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:32,985 - ERROR - Erro ao analisar FLOKIUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:34,074 - ERROR - Erro ao analisar FR40-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:35,135 - ERROR - Erro ao analisar GALAUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:36,232 - ERROR - Erro ao analisar GBPAUD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:37,363 - ERROR - Erro ao analisar GBPCAD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:38,664 - ERROR - Erro ao analisar GBPCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:39,783 - ERROR - Erro ao analisar GBPJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:40,928 - ERROR - Erro ao analisar GBPNZD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:42,025 - ERROR - Erro ao analisar GBPUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:43,082 - ERROR - Erro ao analisar GER30-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:44,282 - ERROR - Erro ao analisar GER30/UK100-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:45,406 - ERROR - Erro ao analisar GOOGLE/MSFT-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:46,499 - ERROR - Erro ao analisar GRTUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:47,616 - ERROR - Erro ao analisar GS-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:48,659 - ERROR - Erro ao analisar HBARUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:49,830 - ERROR - Erro ao analisar HK33-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:50,884 - ERROR - Erro ao analisar ICPUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:51,970 - ERROR - Erro ao analisar IMXUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:53,001 - ERROR - Erro ao analisar INJUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:54,026 - ERROR - Erro ao analisar INTEL-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:55,108 - ERROR - Erro ao analisar INTEL/IBM-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:56,118 - ERROR - Erro ao analisar IOTAUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:57,200 - ERROR - Erro ao analisar JP225-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:58,167 - ERROR - Erro ao analisar JPM-OTC: "['high', 'low'] not in index"
+2025-08-25 17:15:59,227 - ERROR - Erro ao analisar JPYTHB-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:00,330 - ERROR - Erro ao analisar JUPUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:01,472 - ERROR - Erro ao analisar LINKUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:02,585 - ERROR - Erro ao analisar LTCUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:03,581 - ERROR - Erro ao analisar MANAUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:04,614 - ERROR - Erro ao analisar MATICUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:05,653 - ERROR - Erro ao analisar MCDON-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:06,723 - ERROR - Erro ao analisar MELANIAUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:07,793 - ERROR - Erro ao analisar META/GOOGLE-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:08,819 - ERROR - Erro ao analisar MORSTAN-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:09,876 - ERROR - Erro ao analisar MSFT-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:10,927 - ERROR - Erro ao analisar MSFT/AAPL-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:11,983 - ERROR - Erro ao analisar NEARUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:13,052 - ERROR - Erro ao analisar NFLX/AMZN-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:14,062 - ERROR - Erro ao analisar NIKE-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:15,170 - ERROR - Erro ao analisar NOKJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:16,235 - ERROR - Erro ao analisar NVDA/AMD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:17,385 - ERROR - Erro ao analisar NZDCAD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:18,566 - ERROR - Erro ao analisar NZDCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:19,725 - ERROR - Erro ao analisar NZDJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:20,917 - ERROR - Erro ao analisar NZDUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:21,965 - ERROR - Erro ao analisar ONDOUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:22,986 - ERROR - Erro ao analisar ONYXCOINUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:24,096 - ERROR - Erro ao analisar ORDIUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:25,233 - ERROR - Erro ao analisar PENGUUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:26,302 - ERROR - Erro ao analisar PEPEUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:27,399 - ERROR - Erro ao analisar PYTHUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:28,433 - ERROR - Erro ao analisar RAYDIUMUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:29,547 - ERROR - Erro ao analisar RENDERUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:30,977 - ERROR - Erro ao analisar RONINUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:32,109 - ERROR - Erro ao analisar SANDUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:33,188 - ERROR - Erro ao analisar SATSUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:34,345 - ERROR - Erro ao analisar SEIUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:35,371 - ERROR - Erro ao analisar SNAP-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:36,501 - ERROR - Erro ao analisar SOLUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:37,609 - ERROR - Erro ao analisar SP35-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:38,826 - ERROR - Erro ao analisar SP500-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:39,878 - ERROR - Erro ao analisar STXUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:40,949 - ERROR - Erro ao analisar SUIUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:41,994 - ERROR - Erro ao analisar TAOUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:43,004 - ERROR - Erro ao analisar TESLA/FORD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:44,180 - ERROR - Erro ao analisar TIAUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:45,272 - ERROR - Erro ao analisar TRUMPUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:46,396 - ERROR - Erro ao analisar UK100-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:47,455 - ERROR - Erro ao analisar US100/JP225-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:48,537 - ERROR - Erro ao analisar US2000-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:49,638 - ERROR - Erro ao analisar US30-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:50,739 - ERROR - Erro ao analisar US30/JP225-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:51,881 - ERROR - Erro ao analisar US500/JP225-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:53,072 - ERROR - Erro ao analisar USDBRL-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:54,215 - ERROR - Erro ao analisar USDCAD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:55,367 - ERROR - Erro ao analisar USDCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:56,427 - ERROR - Erro ao analisar USDHKD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:57,472 - ERROR - Erro ao analisar USDINR-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:58,532 - ERROR - Erro ao analisar USDJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:16:59,610 - ERROR - Erro ao analisar USDNOK-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:00,731 - ERROR - Erro ao analisar USDPLN-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:01,766 - ERROR - Erro ao analisar USDSEK-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:02,874 - ERROR - Erro ao analisar USDSGD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:03,898 - ERROR - Erro ao analisar USDTHB-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:05,030 - ERROR - Erro ao analisar USDTRY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:06,110 - ERROR - Erro ao analisar USDZAR-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:07,235 - ERROR - Erro ao analisar USNDAQ100-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:08,270 - ERROR - Erro ao analisar WIFUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:09,354 - ERROR - Erro ao analisar WLDUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:10,416 - ERROR - Erro ao analisar XAU/XAG-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:11,613 - ERROR - Erro ao analisar XAUUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:12,784 - ERROR - Erro ao analisar XRPUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:18,970 - ERROR - Erro ao analisar AIG-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:20,032 - ERROR - Erro ao analisar ALIBABA-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:21,125 - ERROR - Erro ao analisar AMZN/ALIBABA-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:22,227 - ERROR - Erro ao analisar AMZN/EBAY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:23,484 - ERROR - Erro ao analisar ARBUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:24,480 - ERROR - Erro ao analisar ATOMUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:25,516 - ERROR - Erro ao analisar AUDCAD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:26,654 - ERROR - Erro ao analisar AUDCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:27,716 - ERROR - Erro ao analisar AUDJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:28,800 - ERROR - Erro ao analisar AUDNZD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:30,296 - ERROR - Erro ao analisar AUDUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:31,379 - ERROR - Erro ao analisar AUS200-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:32,531 - ERROR - Erro ao analisar BCHUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:33,655 - ERROR - Erro ao analisar BIDU-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:34,725 - ERROR - Erro ao analisar BONKUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:35,872 - ERROR - Erro ao analisar CADCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:36,914 - ERROR - Erro ao analisar CADJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:37,901 - ERROR - Erro ao analisar CHFJPY-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:39,043 - ERROR - Erro ao analisar CHFNOK-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:40,058 - ERROR - Erro ao analisar CITI-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:41,106 - ERROR - Erro ao analisar COKE-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:42,142 - ERROR - Erro ao analisar DASHUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:43,116 - ERROR - Erro ao analisar DOTUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:44,116 - ERROR - Erro ao analisar DYDXUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:45,196 - ERROR - Erro ao analisar EOSUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:46,339 - ERROR - Erro ao analisar ETHUSD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:47,469 - ERROR - Erro ao analisar EU50-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:48,309 - ERROR - Erro ao analisar EURAUD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:49,155 - ERROR - Erro ao analisar EURCAD-OTC: "['high', 'low'] not in index"
+2025-08-25 17:17:50,002 - ERROR - Erro ao analisar EURCHF-OTC: "['high', 'low'] not in index"
+2025-08-25 17:19:58,017 - INFO - Websocket connected
+2025-08-25 17:20:02,305 - INFO - Buscando pares de moedas OTC...
+2025-08-25 17:20:06,768 - INFO - 137 pares OTC encontrados.
+2025-08-25 17:20:20,591 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ALIBABA-OTC com confluência de resistência.
+2025-08-25 17:20:23,219 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ARBUSD-OTC com confluência de resistência.
+2025-08-25 17:20:24,058 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ATOMUSD-OTC com confluência de suporte.
+2025-08-25 17:20:27,441 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em AUDNZD-OTC com confluência de resistência.
+2025-08-25 17:20:29,064 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AUS200-OTC com confluência de suporte.
+2025-08-25 17:20:31,624 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em BONKUSD-OTC com confluência de suporte.
+2025-08-25 17:20:36,878 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em CITI-OTC com confluência de suporte.
+2025-08-25 17:20:38,009 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em COKE-OTC com confluência de suporte.
+2025-08-25 17:20:39,070 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em DASHUSD-OTC com confluência de resistência.
+2025-08-25 17:20:41,192 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em DYDXUSD-OTC com confluência de suporte.
+2025-08-25 17:20:44,617 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em EU50-OTC com confluência de resistência.
+2025-08-25 17:20:51,126 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em EURNZD-OTC com confluência de suporte.
+2025-08-25 17:20:54,515 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em FARTCOINUSD-OTC com confluência de suporte.
+2025-08-25 17:21:00,970 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em GBPCAD-OTC com confluência de suporte.
+2025-08-25 17:21:06,275 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em GER30-OTC com confluência de resistência.
+2025-08-25 17:21:11,564 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em HBARUSD-OTC com confluência de suporte.
+2025-08-25 17:21:13,719 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ICPUSD-OTC com confluência de suporte.
+2025-08-25 17:21:17,152 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em INTEL-OTC com confluência de suporte.
+2025-08-25 17:21:18,313 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em INTEL/IBM-OTC com confluência de suporte.
+2025-08-25 17:21:19,424 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em IOTAUSD-OTC com confluência de resistência.
+2025-08-25 17:21:23,833 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em JUPUSD-OTC com confluência de resistência.
+2025-08-25 17:21:24,949 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em LINKUSD-OTC com confluência de resistência.
+2025-08-25 17:21:28,190 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em MATICUSD-OTC com confluência de resistência.
+2025-08-25 17:21:29,257 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em MCDON-OTC com confluência de resistência.
+2025-08-25 17:21:33,522 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em MSFT-OTC com confluência de resistência.
+2025-08-25 17:21:34,566 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em MSFT/AAPL-OTC com confluência de suporte.
+2025-08-25 17:21:36,680 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em NFLX/AMZN-OTC com confluência de resistência.
+2025-08-25 17:21:37,852 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em NIKE-OTC com confluência de resistência.
+2025-08-25 17:21:48,689 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em PENGUUSD-OTC com confluência de resistência.
+2025-08-25 17:21:49,800 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em PEPEUSD-OTC com confluência de resistência.
+2025-08-25 17:21:50,845 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em PYTHUSD-OTC com confluência de resistência.
+2025-08-25 17:21:52,073 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em RAYDIUMUSD-OTC com confluência de suporte.
+2025-08-25 17:21:56,113 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SATSUSD-OTC com confluência de resistência.
+2025-08-25 17:21:57,138 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em SEIUSD-OTC com confluência de suporte.
+2025-08-25 17:21:58,202 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SNAP-OTC com confluência de resistência.
+2025-08-25 17:21:59,325 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em SOLUSD-OTC com confluência de suporte.
+2025-08-25 17:22:01,457 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SP500-OTC com confluência de resistência.
+2025-08-25 17:22:06,724 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em TIAUSD-OTC com confluência de suporte.
+2025-08-25 17:22:07,863 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em TRUMPUSD-OTC com confluência de suporte.
+2025-08-25 17:22:08,962 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em UK100-OTC com confluência de suporte.
+2025-08-25 17:22:11,090 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em US2000-OTC com confluência de suporte.
+2025-08-25 17:22:15,535 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em USDBRL-OTC com confluência de resistência.
+2025-08-25 17:22:16,641 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em USDCAD-OTC com confluência de suporte.
+2025-08-25 17:22:25,278 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em USDSGD-OTC com confluência de suporte.
+2025-08-25 17:22:29,890 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em USNDAQ100-OTC com confluência de suporte.
+2025-08-25 17:22:36,974 - INFO - Sinais encontrados: 45. Melhor sinal: ALIBABA-OTC com 98.0% de assertividade.
+2025-08-25 17:22:37,070 - INFO - Sinal de PUT para ALIBABA-OTC. Aguardando 0.0s para a próxima vela.
+2025-08-25 17:22:37,475 - INFO - Enviando ordem REAL (1 min): PUT em ALIBABA-OTC | Valor $12.0
+2025-08-25 17:22:38,683 - INFO - Ordem 13001238947 enviada.
+2025-08-25 17:23:37,695 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AIG-OTC com confluência de suporte.
+2025-08-25 17:23:38,891 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ALIBABA-OTC com confluência de suporte.
+2025-08-25 17:23:40,024 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AMZN/ALIBABA-OTC com confluência de suporte.
+2025-08-25 17:23:42,200 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ARBUSD-OTC com confluência de suporte.
+2025-08-25 17:23:43,250 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ATOMUSD-OTC com confluência de resistência.
+2025-08-25 17:23:46,798 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AUDJPY-OTC com confluência de suporte.
+2025-08-25 17:23:47,993 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em AUDNZD-OTC com confluência de resistência.
+2025-08-25 17:23:55,181 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em BONKUSD-OTC com confluência de suporte.
+2025-08-25 17:24:01,454 - INFO - Resultado 1756153357.1381185: LOSS | Lucro: $-12.00 | Saldo: $346.95
+2025-08-25 17:24:05,116 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em DOTUSD-OTC com confluência de resistência.
+2025-08-25 17:24:21,010 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em FARTCOINUSD-OTC com confluência de suporte.
+2025-08-25 17:24:22,188 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em FETUSD-OTC com confluência de suporte.
+2025-08-25 17:24:24,714 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em FR40-OTC com confluência de resistência.
+2025-08-25 17:24:25,909 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em GALAUSD-OTC com confluência de suporte.
+2025-08-25 17:24:28,444 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em GBPCAD-OTC com confluência de suporte.
+2025-08-25 17:24:33,494 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em GBPUSD-OTC com confluência de resistência.
+2025-08-25 17:24:34,644 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em GER30-OTC com confluência de suporte.
+2025-08-25 17:24:41,304 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em HK33-OTC com confluência de suporte.
+2025-08-25 17:24:52,112 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em JUPUSD-OTC com confluência de suporte.
+2025-08-25 17:24:53,219 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em LINKUSD-OTC com confluência de suporte.
+2025-08-25 17:24:55,560 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em MANAUSD-OTC com confluência de suporte.
+2025-08-25 17:24:57,600 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em MCDON-OTC com confluência de resistência.
+2025-08-25 17:25:08,619 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em NVDA/AMD-OTC com confluência de suporte.
+2025-08-25 17:25:15,363 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ONYXCOINUSD-OTC com confluência de resistência.
+2025-08-25 17:25:16,554 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ORDIUSD-OTC com confluência de resistência.
+2025-08-25 17:25:23,715 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em RONINUSD-OTC com confluência de suporte.
+2025-08-25 17:25:28,219 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SNAP-OTC com confluência de resistência.
+2025-08-25 17:25:29,306 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em SOLUSD-OTC com confluência de suporte.
+2025-08-25 17:25:30,419 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em SP35-OTC com confluência de suporte.
+2025-08-25 17:25:38,389 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em TRUMPUSD-OTC com confluência de suporte.
+2025-08-25 17:25:40,754 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em US100/JP225-OTC com confluência de resistência.
+2025-08-25 17:25:46,618 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em USDBRL-OTC com confluência de resistência.
+2025-08-25 17:26:04,115 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em WLDUSD-OTC com confluência de resistência.
+2025-08-25 17:26:08,107 - INFO - Sinais encontrados: 32. Melhor sinal: AIG-OTC com 98.0% de assertividade.
+2025-08-25 17:26:08,124 - INFO - Sinal de CALL para AIG-OTC. Aguardando 0.0s para a próxima vela.
+2025-08-25 17:26:08,425 - INFO - Enviando ordem REAL (1 min): CALL em AIG-OTC | Valor $12.0
+2025-08-25 17:26:09,428 - INFO - Ordem 13001247838 enviada.
+2025-08-25 17:27:14,127 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ARBUSD-OTC com confluência de suporte.
+2025-08-25 17:27:15,486 - INFO - Resultado 1756153568.1247063: LOSS | Lucro: $-12.00 | Saldo: $334.95
+2025-08-25 17:27:16,510 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AUDCAD-OTC com confluência de suporte.
+2025-08-25 17:27:24,155 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em BIDU-OTC com confluência de resistência.
+2025-08-25 17:27:30,555 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em CITI-OTC com confluência de resistência.
+2025-08-25 17:27:31,615 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em COKE-OTC com confluência de resistência.
+2025-08-25 17:27:33,894 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em DOTUSD-OTC com confluência de resistência.
+2025-08-25 17:27:35,116 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em DYDXUSD-OTC com confluência de suporte.
+2025-08-25 17:27:36,102 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em EOSUSD-OTC com confluência de resistência.
+2025-08-25 17:27:52,257 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em GALAUSD-OTC com confluência de resistência.
+2025-08-25 17:28:00,434 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em GER30-OTC com confluência de resistência.
+2025-08-25 17:28:07,596 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em HK33-OTC com confluência de suporte.
+2025-08-25 17:28:08,745 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ICPUSD-OTC com confluência de suporte.
+2025-08-25 17:28:18,821 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em JUPUSD-OTC com confluência de resistência.
+2025-08-25 17:28:19,948 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em LINKUSD-OTC com confluência de suporte.
+2025-08-25 17:28:22,342 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em MANAUSD-OTC com confluência de suporte.
+2025-08-25 17:28:25,055 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em MCDON-OTC com confluência de suporte.
+2025-08-25 17:28:30,981 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em MSFT/AAPL-OTC com confluência de resistência.
+2025-08-25 17:28:32,114 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em NEARUSD-OTC com confluência de resistência.
+2025-08-25 17:28:34,490 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em NIKE-OTC com confluência de resistência.
+2025-08-25 17:28:36,767 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em NVDA/AMD-OTC com confluência de resistência.
+2025-08-25 17:28:40,251 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em NZDJPY-OTC com confluência de suporte.
+2025-08-25 17:28:42,669 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ONDOUSD-OTC com confluência de suporte.
+2025-08-25 17:28:43,767 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ONYXCOINUSD-OTC com confluência de suporte.
+2025-08-25 17:28:44,925 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ORDIUSD-OTC com confluência de resistência.
+2025-08-25 17:28:46,001 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em PENGUUSD-OTC com confluência de resistência.
+2025-08-25 17:28:48,370 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em PYTHUSD-OTC com confluência de suporte.
+2025-08-25 17:28:51,840 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em RONINUSD-OTC com confluência de suporte.
+2025-08-25 17:28:52,998 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SANDUSD-OTC com confluência de resistência.
+2025-08-25 17:28:56,363 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SNAP-OTC com confluência de resistência.
+2025-08-25 17:28:58,929 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SP35-OTC com confluência de resistência.
+2025-08-25 17:29:00,147 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SP500-OTC com confluência de resistência.
+2025-08-25 17:29:01,363 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em STXUSD-OTC com confluência de suporte.
+2025-08-25 17:29:02,537 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em SUIUSD-OTC com confluência de resistência.
+2025-08-25 17:29:07,048 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em TRUMPUSD-OTC com confluência de resistência.
+2025-08-25 17:29:09,457 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em US100/JP225-OTC com confluência de resistência.
+2025-08-25 17:29:10,637 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em US2000-OTC com confluência de resistência.
+2025-08-25 17:29:13,161 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em US30/JP225-OTC com confluência de resistência.
+2025-08-25 17:29:15,298 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em USDBRL-OTC com confluência de resistência.
+2025-08-25 17:29:16,416 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em USDCAD-OTC com confluência de suporte.
+2025-08-25 17:32:23,159 - INFO - Websocket connected
+2025-08-25 17:32:27,616 - INFO - Buscando pares de moedas OTC...
+2025-08-25 17:32:34,073 - INFO - 137 pares OTC encontrados.
+2025-08-25 17:32:53,876 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ALIBABA-OTC detectado.
+2025-08-25 17:32:55,614 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em AMZN/EBAY-OTC detectado.
+2025-08-25 17:32:56,537 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ARBUSD-OTC detectado.
+2025-08-25 17:32:57,397 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ATOMUSD-OTC detectado.
+2025-08-25 17:32:58,272 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AUDCAD-OTC detectado.
+2025-08-25 17:33:04,998 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em BIDU-OTC detectado.
+2025-08-25 17:33:10,841 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em CITI-OTC detectado.
+2025-08-25 17:33:12,039 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em COKE-OTC detectado.
+2025-08-25 17:33:13,148 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em DASHUSD-OTC detectado.
+2025-08-25 17:33:14,285 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em DOTUSD-OTC detectado.
+2025-08-25 17:33:15,490 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em DYDXUSD-OTC detectado.
+2025-08-25 17:33:18,910 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em EU50-OTC detectado.
+2025-08-25 17:33:28,049 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em EURUSD-OTC detectado.
+2025-08-25 17:33:29,166 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em FARTCOINUSD-OTC detectado.
+2025-08-25 17:33:30,954 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em FLOKIUSD-OTC detectado.
+2025-08-25 17:33:33,292 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em GALAUSD-OTC detectado.
+2025-08-25 17:33:35,196 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em GBPCAD-OTC detectado.
+2025-08-25 17:33:40,118 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em GER30-OTC detectado.
+2025-08-25 17:33:42,058 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em GOOGLE/MSFT-OTC detectado.
+2025-08-25 17:33:43,029 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em GRTUSD-OTC detectado.
+2025-08-25 17:33:43,943 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em GS-OTC detectado.
+2025-08-25 17:33:46,849 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ICPUSD-OTC detectado.
+2025-08-25 17:33:56,685 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em JUPUSD-OTC detectado.
+2025-08-25 17:33:59,098 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em LTCUSD-OTC detectado.
+2025-08-25 17:34:00,300 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em MANAUSD-OTC detectado.
+2025-08-25 17:34:07,164 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em MSFT-OTC detectado.
+2025-08-25 17:34:08,329 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em MSFT/AAPL-OTC detectado.
+2025-08-25 17:34:09,553 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em NEARUSD-OTC detectado.
+2025-08-25 17:34:10,757 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em NFLX/AMZN-OTC detectado.
+2025-08-25 17:34:20,325 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ONDOUSD-OTC detectado.
+2025-08-25 17:34:21,468 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ONYXCOINUSD-OTC detectado.
+2025-08-25 17:34:22,613 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ORDIUSD-OTC detectado.
+2025-08-25 17:34:25,047 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em PEPEUSD-OTC detectado.
+2025-08-25 17:34:26,300 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em PYTHUSD-OTC detectado.
+2025-08-25 17:34:27,386 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em RAYDIUMUSD-OTC detectado.
+2025-08-25 17:34:28,511 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em RENDERUSD-OTC detectado.
+2025-08-25 17:34:29,621 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em RONINUSD-OTC detectado.
+2025-08-25 17:34:35,211 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em SOLUSD-OTC detectado.
+2025-08-25 17:34:38,684 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em STXUSD-OTC detectado.
+2025-08-25 17:34:40,901 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em TAOUSD-OTC detectado.
+2025-08-25 17:34:43,161 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em TIAUSD-OTC detectado.
+2025-08-25 17:34:44,343 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em TRUMPUSD-OTC detectado.
+2025-08-25 17:34:47,971 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em US2000-OTC detectado.
+2025-08-25 17:34:52,736 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em USDBRL-OTC detectado.
+2025-08-25 17:35:01,993 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em USDSEK-OTC detectado.
+2025-08-25 17:35:10,985 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em WLDUSD-OTC detectado.
+2025-08-25 17:35:14,881 - INFO - Sinais encontrados: 46. Melhor sinal: ALIBABA-OTC com 95.0% de assertividade.
+2025-08-25 17:35:14,891 - INFO - Sinal de PUT para ALIBABA-OTC. Aguardando 0.0s para a próxima vela.
+2025-08-25 17:35:15,261 - INFO - Enviando ordem REAL (1 min): PUT em ALIBABA-OTC | Valor $15.0
+2025-08-25 17:35:16,311 - INFO - Ordem 13001271491 enviada.
+2025-08-25 17:36:15,519 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em AIG-OTC detectado.
+2025-08-25 17:36:20,180 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em ARBUSD-OTC detectado.
+2025-08-25 17:36:21,356 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em ATOMUSD-OTC detectado.
+2025-08-25 17:36:22,607 - INFO - Resultado 1756154114.893512: LOSS | Lucro: $-15.00 | Saldo: $285.95
+2025-08-25 17:36:22,681 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AUDCAD-OTC detectado.
+2025-08-25 17:36:26,150 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em AUDNZD-OTC detectado.
+2025-08-25 17:36:31,998 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em BONKUSD-OTC detectado.
+2025-08-25 17:36:33,206 - INFO - Análise Estratégia de GAP: GAP DE BAIXA (Sinal CALL) em CADCHF-OTC detectado.
+2025-08-25 17:36:38,105 - INFO - Análise Estratégia de GAP: GAP DE ALTA (Sinal PUT) em CITI-OTC detectado.
+2025-08-25 19:29:10,879 - INFO - Websocket connected
+2025-08-25 19:29:39,663 - INFO - Buscando pares de moedas OTC...
+2025-08-25 19:29:43,878 - INFO - 142 pares OTC encontrados.
+2025-09-10 16:56:07,546 - INFO - Websocket connected
+2025-09-10 16:56:12,897 - INFO - Iniciando a busca por pares de moedas OTC...
+2025-09-10 16:56:17,236 - INFO - Encontrados 137 pares OTC.
+2025-09-10 16:58:10,248 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 16:58:28,181 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:05:15,945 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:05:23,385 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:05:26,805 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:05:36,059 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:05:38,325 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:05:40,730 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:05:49,771 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:05:54,141 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:06:18,697 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:06:38,147 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:06:55,498 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:06:58,693 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:06:59,705 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:07:19,265 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:07:38,458 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:07:38,991 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:07:40,749 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:07:49,057 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:07:52,341 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:08:01,001 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:08:03,004 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:08:05,242 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:08:06,441 - INFO - Sinais encontrados: 8. Melhor sinal: AMZN/ALIBABA-OTC com 75.0% de assertividade.
+2025-09-10 17:08:06,540 - INFO - Sinal de PUT para AMZN/ALIBABA-OTC. Aguardando 54.0s para a próxima vela.
+2025-09-10 17:09:01,078 - INFO - Enviando ordem REAL: PUT em AMZN/ALIBABA-OTC | Valor $5.0
+2025-09-10 17:09:02,148 - INFO - Ordem 13061433025 enviada.
+2025-09-10 17:09:20,634 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:09:27,417 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:09:30,602 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:09:47,095 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:09:55,767 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:10:08,270 - INFO - Resultado 1757534940.713749: LOSS | Lucro: $-5.00 | Saldo Atual: $576.81
+2025-09-10 17:10:20,602 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:10:40,710 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:10:58,928 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:11:01,221 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:11:02,775 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:11:09,379 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:11:09,894 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:11:13,245 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:11:22,473 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:11:24,797 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:11:26,569 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:11:27,082 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:11:28,170 - INFO - Sinais encontrados: 9. Melhor sinal: BCHUSD-OTC com 75.0% de assertividade.
+2025-09-10 17:11:28,186 - INFO - Sinal de PUT para BCHUSD-OTC. Aguardando 32.0s para a próxima vela.
+2025-09-10 17:12:00,548 - INFO - Enviando ordem REAL: PUT em BCHUSD-OTC | Valor $5.0
+2025-09-10 17:12:01,430 - INFO - Ordem 13061440553 enviada.
+2025-09-10 17:12:42,908 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:12:53,041 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:13:07,443 - INFO - Resultado 1757535120.1981099: WIN | Lucro: $4.25 | Saldo Atual: $581.06
+2025-09-10 17:13:08,244 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:13:17,758 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:13:43,096 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:13:44,226 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:13:49,063 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:13:55,060 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:14:07,500 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:14:09,778 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:14:16,989 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:14:19,936 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:14:24,019 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:14:27,570 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:14:29,672 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:14:31,684 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:14:32,507 - INFO - Sinais encontrados: 8. Melhor sinal: BONKUSD-OTC com 75.0% de assertividade.
+2025-09-10 17:14:32,541 - INFO - Sinal de PUT para BONKUSD-OTC. Aguardando 28.0s para a próxima vela.
+2025-09-10 17:15:00,984 - INFO - Enviando ordem REAL: PUT em BONKUSD-OTC | Valor $5.0
+2025-09-10 17:15:02,019 - INFO - Ordem 13061447906 enviada.
+2025-09-10 17:15:37,444 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:16:01,445 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:16:08,211 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:16:09,347 - INFO - Resultado 1757535300.571204: WIN | Lucro: $4.25 | Saldo Atual: $585.31
+2025-09-10 17:16:34,856 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:16:38,075 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:16:39,307 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:16:52,442 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:16:56,919 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:16:59,653 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:17:14,581 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:17:17,900 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:17:18,414 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:17:19,091 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:17:20,780 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:17:21,356 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:17:29,445 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:17:32,737 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:17:40,986 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:17:43,046 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:17:44,957 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:17:45,763 - INFO - Sinais encontrados: 12. Melhor sinal: ARBUSD-OTC com 75.0% de assertividade.
+2025-09-10 17:17:45,792 - INFO - Sinal de CALL para ARBUSD-OTC. Aguardando 15.0s para a próxima vela.
+2025-09-10 17:18:01,168 - INFO - Enviando ordem REAL: CALL em ARBUSD-OTC | Valor $5.0
+2025-09-10 17:18:02,198 - INFO - Ordem 13061455531 enviada.
+2025-09-10 17:18:49,854 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:18:58,379 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:19:03,760 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:19:10,481 - INFO - Resultado 1757535480.8147528: LOSS | Lucro: $-5.00 | Saldo Atual: $580.31
+2025-09-10 17:19:37,476 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:20:13,464 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:20:19,673 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:20:27,799 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:20:38,116 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:20:40,183 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:20:48,739 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:20:51,953 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:20:57,491 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:21:01,365 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:21:03,381 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:21:05,406 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:21:06,041 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:21:06,554 - INFO - Sinais encontrados: 8. Melhor sinal: AMZN/EBAY-OTC com 75.0% de assertividade.
+2025-09-10 17:21:06,573 - INFO - Sinal de PUT para AMZN/EBAY-OTC. Aguardando 54.0s para a próxima vela.
+2025-09-10 17:21:39,650 - INFO - Iniciando a busca por pares de moedas OTC...
+2025-09-10 17:21:57,792 - INFO - Encontrados 137 pares OTC.
+2025-09-10 17:22:07,885 - INFO - Enviando ordem REAL: PUT em AMZN/EBAY-OTC | Valor $5.0
+2025-09-10 17:22:09,132 - INFO - Ordem 13061466761 enviada.
+2025-09-10 17:22:15,556 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:23:01,109 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:23:02,163 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:23:04,233 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:23:19,697 - INFO - Resultado 1757535720.593075: WIN | Lucro: $4.25 | Saldo Atual: $584.56
+2025-09-10 17:23:27,698 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:23:30,806 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:23:44,760 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:23:47,319 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:23:49,386 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:23:56,197 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:23:57,211 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:23:57,720 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:24:00,844 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:24:09,371 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:24:11,436 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:24:13,703 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:24:14,734 - INFO - Sinais encontrados: 8. Melhor sinal: AUDCHF-OTC com 75.0% de assertividade.
+2025-09-10 17:24:14,747 - INFO - Sinal de CALL para AUDCHF-OTC. Aguardando 46.0s para a próxima vela.
+2025-09-10 17:25:01,090 - INFO - Enviando ordem REAL: CALL em AUDCHF-OTC | Valor $5.0
+2025-09-10 17:25:02,049 - INFO - Ordem 13061474275 enviada.
+2025-09-10 17:25:41,002 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:26:00,870 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:26:10,880 - INFO - Resultado 1757535900.7652805: WIN | Lucro: $4.25 | Saldo Atual: $588.81
+2025-09-10 17:26:18,683 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:26:31,539 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:26:38,168 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:26:53,713 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:27:08,322 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:27:13,279 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:27:15,451 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:27:19,296 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:27:24,197 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:27:27,622 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:27:36,059 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:27:38,141 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:27:40,232 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:27:41,326 - INFO - Sinais encontrados: 7. Melhor sinal: DYDXUSD-OTC com 75.0% de assertividade.
+2025-09-10 17:27:41,358 - INFO - Sinal de PUT para DYDXUSD-OTC. Aguardando 19.0s para a próxima vela.
+2025-09-10 17:28:00,694 - INFO - Enviando ordem REAL: PUT em DYDXUSD-OTC | Valor $5.0
+2025-09-10 17:28:01,730 - INFO - Ordem 13061482524 enviada.
+2025-09-10 17:28:43,956 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:28:51,080 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:29:03,482 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:29:12,461 - INFO - Resultado 1757536080.3711808: WIN | Lucro: $4.35 | Saldo Atual: $593.16
+2025-09-10 17:29:46,148 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:29:58,825 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:30:09,088 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:30:09,620 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:30:25,140 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:30:26,962 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:30:35,356 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:30:38,218 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:30:38,731 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:30:39,344 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:30:41,458 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:30:43,705 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:30:47,509 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:30:49,696 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:30:52,102 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:30:53,259 - INFO - Sinais encontrados: 10. Melhor sinal: AMZN/ALIBABA-OTC com 75.0% de assertividade.
+2025-09-10 17:30:53,334 - INFO - Sinal de PUT para AMZN/ALIBABA-OTC. Aguardando 7.0s para a próxima vela.
+2025-09-10 17:31:00,666 - INFO - Enviando ordem REAL: PUT em AMZN/ALIBABA-OTC | Valor $5.0
+2025-09-10 17:31:01,752 - INFO - Ordem 13061490084 enviada.
+2025-09-10 17:32:03,699 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:32:13,784 - INFO - Resultado 1757536260.3418252: WIN | Lucro: $4.25 | Saldo Atual: $597.41
+2025-09-10 17:32:14,839 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:32:44,129 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:32:56,361 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:33:02,676 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:33:15,546 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:33:20,258 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:33:31,317 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:33:35,382 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:33:37,211 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:33:44,304 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:33:47,481 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:33:55,977 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:33:58,083 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:34:00,401 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:34:01,417 - INFO - Sinais encontrados: 7. Melhor sinal: AUDNZD-OTC com 75.0% de assertividade.
+2025-09-10 17:34:01,454 - INFO - Sinal de PUT para AUDNZD-OTC. Aguardando 59.0s para a próxima vela.
+2025-09-10 17:35:00,758 - INFO - Enviando ordem REAL: PUT em AUDNZD-OTC | Valor $5.0
+2025-09-10 17:35:01,924 - INFO - Ordem 13061499711 enviada.
+2025-09-10 17:35:18,899 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:35:20,076 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:35:46,074 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:35:52,342 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:36:11,702 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:36:13,812 - INFO - Resultado 1757536500.4772747: WIN | Lucro: $4.35 | Saldo Atual: $601.76
+2025-09-10 17:36:34,897 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:36:45,905 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:36:47,655 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:36:49,840 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:36:51,609 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:36:58,918 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:37:01,660 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:37:08,499 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:37:08,815 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:37:10,176 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:37:12,037 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:37:13,049 - INFO - Sinais encontrados: 8. Melhor sinal: AUDNZD-OTC com 75.0% de assertividade.
+2025-09-10 17:37:13,058 - INFO - Sinal de PUT para AUDNZD-OTC. Aguardando 47.0s para a próxima vela.
+2025-09-10 17:38:00,416 - INFO - Enviando ordem REAL: PUT em AUDNZD-OTC | Valor $5.0
+2025-09-10 17:38:01,555 - INFO - Ordem 13061506991 enviada.
+2025-09-10 17:38:20,807 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:38:27,286 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:38:37,110 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:38:54,594 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:39:04,453 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:39:06,750 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:39:14,374 - INFO - Resultado 1757536680.0656395: LOSS | Lucro: $-5.00 | Saldo Atual: $596.76
+2025-09-10 17:39:26,849 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:39:56,452 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:39:58,635 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:39:59,153 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:40:19,211 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:40:19,911 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:40:21,714 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:40:25,576 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:40:30,316 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 17:40:30,851 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:40:33,797 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 17:40:42,656 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 17:40:44,790 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 17:40:46,505 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 17:40:47,407 - INFO - Sinais encontrados: 12. Melhor sinal: AMZN/EBAY-OTC com 75.0% de assertividade.
+2025-09-10 17:40:47,444 - INFO - Sinal de PUT para AMZN/EBAY-OTC. Aguardando 13.0s para a próxima vela.
+2025-09-10 17:41:00,736 - INFO - Enviando ordem REAL: PUT em AMZN/EBAY-OTC | Valor $5.0
+2025-09-10 17:41:01,520 - INFO - Ordem 13061514201 enviada.
+2025-09-10 17:42:06,049 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:42:10,765 - INFO - Resultado 1757536860.46699: LOSS | Lucro: $-5.00 | Saldo Atual: $591.76
+2025-09-10 17:45:13,046 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:45:18,504 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:45:25,804 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:45:38,143 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:45:39,285 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:45:44,852 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:45:46,928 - INFO - Análise Hammer & Hanging Man (75%): Sinal de VENDA detectado (Hanging Man / Shooting Star)
+2025-09-10 17:46:04,716 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 17:46:12,764 - INFO - Análise Hammer & Hanging Man (75%): Sinal de COMPRA detectado (Hammer)
+2025-09-10 17:46:23,651 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 17:46:25,911 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 17:46:47,463 - ERROR - Connection to remote host was lost.
+2025-09-10 17:46:47,496 - ERROR - Connection to remote host was lost. - goodbye
+2025-09-10 17:46:47,508 - ERROR - error from callback <bound method WebsocketClient.on_close of <exnovaapi.ws.client.WebsocketClient object at 0x0000028C371F4B50>>: WebsocketClient.on_close() takes from 1 to 3 positional arguments but 4 were given
+2025-09-10 17:46:47,528 - ERROR - WebsocketClient.on_close() takes from 1 to 3 positional arguments but 4 were given
+2025-09-10 17:51:58,055 - INFO - Iniciando a busca por pares de moedas OTC...
+2025-09-10 17:51:58,662 - ERROR - Erro CRÍTICO ao atualizar ativos: Connection is already closed.
+Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\SINALIZADOR_ALPHA_REAL.py", line 537, in _update_asset_data
+    logger.info("Iniciando a busca por pares de moedas OTC..."); all_assets = self.exnova_api.get_all_init_v2(); temp_pairs = []; temp_payouts = {}
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\exnovaapi\stable_api.py", line 283, in get_all_init_v2
+    self.api.get_api_option_init_all_v2()
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\exnovaapi\api.py", line 633, in get_api_option_init_all_v2
+    self.send_websocket_request(name="sendMessage", msg=msg)
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\exnovaapi\api.py", line 278, in send_websocket_request
+    self.websocket.send(data)
+  File "C:\Users\gabri\AppData\Local\Programs\Python\Python310\lib\site-packages\websocket\_app.py", line 291, in send
+    raise WebSocketConnectionClosedException("Connection is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.
+2025-09-10 19:36:47,678 - INFO - Websocket connected
+2025-09-10 19:36:51,895 - INFO - Iniciando a busca por pares de moedas OTC...
+2025-09-10 19:36:56,358 - INFO - Encontrados 142 pares OTC.
+2025-09-10 19:38:59,021 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 19:39:18,941 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 19:39:21,228 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 19:39:30,337 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 19:39:33,607 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 19:39:42,549 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 19:39:44,657 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 19:39:47,100 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 19:41:39,471 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 19:41:59,970 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 19:42:02,259 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 19:42:11,293 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 19:42:14,536 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 19:42:23,443 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 19:42:25,846 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 19:42:28,042 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 19:44:07,235 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 19:45:43,546 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=63.26)
+2025-09-10 19:45:49,045 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 19:46:04,176 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 19:46:05,826 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 19:46:12,731 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 19:46:13,888 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=60.38)
+2025-09-10 19:46:15,237 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 19:46:22,203 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 19:46:23,983 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 19:46:26,034 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 19:46:26,947 - INFO - Sinais encontrados: 2. Melhor sinal: NZDCHF-OTC com 80.0% de assertividade.
+2025-09-10 19:46:26,980 - INFO - Sinal de PUT para NZDCHF-OTC. Aguardando 34.0s para a próxima vela.
+2025-09-10 19:47:01,423 - INFO - Enviando ordem REAL: PUT em NZDCHF-OTC | Valor $5.0
+2025-09-10 19:47:02,198 - INFO - Ordem 13061854519 enviada.
+2025-09-10 19:48:07,987 - INFO - Resultado 1757544421.0028968: WIN | Lucro: $4.25 | Saldo Atual: $596.01
+2025-09-10 19:48:58,910 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 19:49:14,698 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 19:49:16,406 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 19:49:23,083 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 19:49:25,810 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 19:49:33,590 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 19:49:35,323 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 19:49:37,689 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 19:51:05,620 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 19:51:21,690 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 19:51:23,484 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 19:51:31,821 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 19:51:34,848 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 19:51:42,753 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 19:51:44,896 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 19:51:46,520 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 19:52:32,542 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=60.77)
+2025-09-10 19:53:17,837 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-10 19:53:22,905 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=61.41)
+2025-09-10 19:53:37,885 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-10 19:53:40,181 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-10 19:53:49,197 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-10 19:53:52,580 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-10 19:54:01,616 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-10 19:54:03,929 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-10 19:54:06,221 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-10 19:54:07,449 - INFO - Sinais encontrados: 2. Melhor sinal: GBPJPY-OTC com 80.0% de assertividade.
+2025-09-10 19:54:07,464 - INFO - Sinal de PUT para GBPJPY-OTC. Aguardando 53.0s para a próxima vela.
+2025-09-10 19:55:00,795 - INFO - Enviando ordem REAL: PUT em GBPJPY-OTC | Valor $5.0
+2025-09-10 19:55:01,972 - INFO - Ordem 13061875837 enviada.
+2025-09-10 19:55:54,690 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=65.58)
+2025-09-10 19:56:08,233 - INFO - Resultado 1757544900.4852664: WIN | Lucro: $4.30 | Saldo Atual: $600.31
+2025-09-10 19:56:10,498 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=67.55)
+2025-09-10 19:57:00,559 - ERROR - Connection to remote host was lost.
+2025-09-10 19:57:00,587 - ERROR - Connection to remote host was lost. - goodbye
+2025-09-10 19:57:00,624 - ERROR - error from callback <bound method WebsocketClient.on_close of <exnovaapi.ws.client.WebsocketClient object at 0x0000021E391F24D0>>: WebsocketClient.on_close() takes from 1 to 3 positional arguments but 4 were given
+2025-09-10 19:57:00,660 - ERROR - WebsocketClient.on_close() takes from 1 to 3 positional arguments but 4 were given
+2025-09-10 20:05:40,516 - INFO - Iniciando a busca por pares de moedas OTC...
+2025-09-10 20:05:40,965 - ERROR - Erro CRÍTICO ao atualizar ativos: Connection is already closed.
+Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\SINALIZADOR_ALPHA_REAL.py", line 537, in _update_asset_data
+    logger.info("Iniciando a busca por pares de moedas OTC..."); all_assets = self.exnova_api.get_all_init_v2(); temp_pairs = []; temp_payouts = {}
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\exnovaapi\stable_api.py", line 283, in get_all_init_v2
+    self.api.get_api_option_init_all_v2()
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\exnovaapi\api.py", line 633, in get_api_option_init_all_v2
+    self.send_websocket_request(name="sendMessage", msg=msg)
+  File "C:\Users\gabri\OneDrive\Área de Trabalho\robo alpha 2.0\exnovaapi\api.py", line 278, in send_websocket_request
+    self.websocket.send(data)
+  File "C:\Users\gabri\AppData\Local\Programs\Python\Python310\lib\site-packages\websocket\_app.py", line 291, in send
+    raise WebSocketConnectionClosedException("Connection is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.
+2025-09-11 15:30:29,096 - INFO - Websocket connected
+2025-09-11 15:30:32,769 - INFO - Iniciando a busca por pares de moedas OTC...
+2025-09-11 15:30:36,712 - INFO - Encontrados 137 pares OTC.
+2025-09-11 15:32:30,762 - INFO - Análise MACD + RSI Reversal (80%): Sinal de COMPRA detectado (MACD Crossover + RSI=33.10)
+2025-09-11 15:32:34,329 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-11 15:32:54,000 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-11 15:32:56,243 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-11 15:33:03,954 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=60.39)
+2025-09-11 15:33:05,628 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-11 15:33:08,796 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-11 15:33:16,646 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-11 15:33:18,345 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-11 15:33:19,966 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-11 15:33:20,921 - INFO - Sinais encontrados: 2. Melhor sinal: ONDOUSD-OTC com 80.0% de assertividade.
+2025-09-11 15:33:20,985 - INFO - Sinal de CALL para ONDOUSD-OTC. Aguardando 40.0s para a próxima vela.
+2025-09-11 15:34:01,449 - INFO - Enviando ordem REAL: CALL em ONDOUSD-OTC | Valor $5.0
+2025-09-11 15:34:02,571 - INFO - Ordem 13065062975 enviada.
+2025-09-11 15:35:08,655 - INFO - Resultado 1757615640.99772: WIN | Lucro: $4.35 | Saldo Atual: $585.71
+2025-09-11 15:35:56,931 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-11 15:36:15,588 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-11 15:36:17,209 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-11 15:36:24,056 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-11 15:36:26,738 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-11 15:36:33,558 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-11 15:36:35,249 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-11 15:36:37,072 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-11 15:36:55,352 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=64.49)
+2025-09-11 15:37:06,684 - INFO - Análise MACD + RSI Reversal (80%): Sinal de VENDA detectado (MACD Crossover + RSI=60.39)
+2025-09-11 15:37:07,536 - INFO - Análise MACD + RSI Reversal (80%): Sinal de COMPRA detectado (MACD Crossover + RSI=37.23)
+2025-09-11 15:37:55,321 - INFO - Análise MACD + RSI Reversal (80%): Sinal de COMPRA detectado (MACD Crossover + RSI=39.26)
+2025-09-11 15:37:58,519 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-11 15:38:13,208 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-11 15:38:14,915 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-11 15:38:21,777 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-11 15:38:24,429 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-11 15:38:31,467 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-11 15:38:33,165 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-11 15:38:34,935 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-11 15:38:35,805 - INFO - Sinais encontrados: 4. Melhor sinal: BONKUSD-OTC com 80.0% de assertividade.
+2025-09-11 15:38:35,836 - INFO - Sinal de PUT para BONKUSD-OTC. Aguardando 25.0s para a próxima vela.
+2025-09-11 15:39:01,127 - INFO - Enviando ordem REAL: PUT em BONKUSD-OTC | Valor $5.0
+2025-09-11 15:39:01,875 - INFO - Ordem 13065078384 enviada.
+2025-09-11 15:39:38,174 - INFO - Análise MACD + RSI Reversal (80%): Sinal de COMPRA detectado (MACD Crossover + RSI=37.77)
+2025-09-11 15:40:07,632 - INFO - Resultado 1757615940.8529046: WIN | Lucro: $4.25 | Saldo Atual: $589.96
+2025-09-11 15:41:01,705 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-11 15:41:20,877 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-11 15:41:23,169 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-11 15:41:33,729 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-11 15:41:37,199 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-11 15:41:46,669 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-11 15:41:48,939 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-11 15:41:51,272 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-11 15:41:52,344 - INFO - Sinais encontrados: 1. Melhor sinal: AMZN/ALIBABA-OTC com 80.0% de assertividade.
+2025-09-11 15:41:52,344 - INFO - Sinal de CALL para AMZN/ALIBABA-OTC. Aguardando 8.0s para a próxima vela.
+2025-09-11 15:42:00,603 - INFO - Enviando ordem REAL: CALL em AMZN/ALIBABA-OTC | Valor $5.0
+2025-09-11 15:42:01,754 - INFO - Ordem 13065087256 enviada.
+2025-09-11 15:43:09,063 - INFO - Resultado 1757616120.3589315: WIN | Lucro: $4.25 | Saldo Atual: $594.21
+2025-09-11 15:44:24,440 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-11 15:44:43,648 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-11 15:44:45,907 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-11 15:44:54,900 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-11 15:44:58,271 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-11 15:45:07,729 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-11 15:45:09,965 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-11 15:45:12,458 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-11 15:46:55,332 - WARNING - Dados inválidos para PENUSD-OTC.
+2025-09-11 15:47:14,555 - WARNING - Dados inválidos para TONUSD-OTC.
+2025-09-11 15:47:16,787 - WARNING - Dados inválidos para UKOUSD-OTC.
+2025-09-11 15:47:25,784 - WARNING - Dados inválidos para USDCOP-OTC.
+2025-09-11 15:47:29,167 - WARNING - Dados inválidos para USDMXN-OTC.
+2025-09-11 15:47:37,941 - WARNING - Dados inválidos para USOUSD-OTC.
+2025-09-11 15:47:40,188 - WARNING - Dados inválidos para XAGUSD-OTC.
+2025-09-11 15:47:42,516 - WARNING - Dados inválidos para XNGUSD-OTC.
+2025-09-11 15:49:03,483 - ERROR - Connection to remote host was lost.
+2025-09-11 15:49:03,546 - ERROR - Connection to remote host was lost. - goodbye
+2025-09-11 15:49:03,596 - ERROR - error from callback <bound method WebsocketClient.on_close of <exnovaapi.ws.client.WebsocketClient object at 0x00000223D1252080>>: WebsocketClient.on_close() takes from 1 to 3 positional arguments but 4 were given
+2025-09-11 15:49:03,656 - ERROR - WebsocketClient.on_close() takes from 1 to 3 positional arguments but 4 were given

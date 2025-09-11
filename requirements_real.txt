@@ -1,0 +1,10 @@
+customtkinter
+pandas
+numpy
+ta
+Pillow
+pywhatkit
+flask
+flask-socketio
+jinja2
+python-dotenv
